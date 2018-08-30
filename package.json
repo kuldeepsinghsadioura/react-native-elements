@@ -11,7 +11,7 @@
     "bootstrap"
   ],
   "scripts": {
-    "build": "rm -rf build; webpack",
+    "build": "node api.js && rm -rf build; webpack",
     "test": "jest",
     "test:ci": "jest --runInBand",
     "test:watch": "jest --watch",
