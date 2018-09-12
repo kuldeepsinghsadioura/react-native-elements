@@ -4,7 +4,7 @@ node_modules
 site
 coverage
 jsconfig.json
-.vscode/
 .idea/
 website/build
 .idea/
+config.bat
